@@ -5,7 +5,7 @@ import random
 app = Flask(__name__)
 CORS(app) # Enables the frontend to access this backend
 
-@app.route('/quote', methods=['GET'])
+@app.route('/api/quote', methods=['GET'])
 def get_random_quote():
     quotes = quotes = [
     "The only way to do great work is to love what you do. - Steve Jobs",
