@@ -7,7 +7,7 @@ CORS(app) # Enables the frontend to access this backend
 
 @app.route('/api/quote', methods=['GET'])
 def get_random_quote():
-    quotes = quotes = [
+    quotes = [
     "The only way to do great work is to love what you do. - Steve Jobs",
     "It always seems impossible until it is done. - Nelson Mandela",
     "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
